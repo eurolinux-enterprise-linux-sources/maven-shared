@@ -32,7 +32,7 @@ Summary:        Maven Shared Components
 URL:            http://maven.apache.org/shared/
 Name:           maven-shared
 Version:        19
-Release:        3%{?dist}
+Release:        4%{?dist}
 License:        ASL 2.0
 Group:          Development/Libraries
 
@@ -73,6 +73,9 @@ chmod -R go=u-w *
 %doc LICENSE.txt NOTICE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 19-4
+- Mass rebuild 2013-12-27
+
 * Tue Feb 26 2013 Tomas Radej <tradej@redhat.com> - 19-3
 - Fixed obsoletions
 
